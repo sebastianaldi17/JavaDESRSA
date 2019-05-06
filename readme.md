@@ -6,12 +6,12 @@ This project will demonstrate RSA and DES encryption in java using the javax.cry
 * [Dave Hong](https://github.com/acailuv)
 * [Denny Raymond](https://github.com/raymondddenny)
 * [Leon Chrisdion](https://github.com/leonchrisdion)
-* [Winston Renatan](https://github.com/Ebnhzr)
+* [Winston Renatan](https://github.com/winstonrenatan)
 
 ## Prerequisites
 * (Java 8, the JDK for compiling, the JRE for running)[https://www.oracle.com/technetwork/java/javase/downloads/index.html]
 ## Opening the appllication
-Compile the java files using `javac *.java` and then launch the app by calling `java App`. Or, simply download the jar file in this repository and launch that instead by double clicking.
+Compile the java files using `javac *.java` and then launch the app by calling `java App`. Or, simply [download the jar file](https://github.com/sebastianaldi17/JavaDESRSA/raw/master/encryptorv1.4.jar) in this repository and launch that instead by double clicking.
 
 ## Additional details
 1. RSA plaintext is limited to 53 characters due to the key length (512 bits = 64 bytes, and 11 bytes is used for header stuff in PKCS)
