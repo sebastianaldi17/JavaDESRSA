@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+   <children>
+      <Text layoutX="164.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Encryptor v1.4">
+         <font>
+            <Font name="Inconsolata Regular" size="39.0" />
+         </font>
+      </Text>
+      <Button fx:id="RSAButton" layoutX="44.0" layoutY="86.0" mnemonicParsing="false" onAction="#RSAScene" prefHeight="110.0" prefWidth="221.0" text="RSA Encryption" />
+      <Button fx:id="DESButton" layoutX="325.0" layoutY="86.0" mnemonicParsing="false" onAction="#DESScene" prefHeight="110.0" prefWidth="221.0" text="DES Encryption" />
+      <TextArea editable="false" layoutX="44.0" layoutY="196.0" prefHeight="311.0" prefWidth="221.0" text="Short for Rivest-Shamir-Adleman, RSA is an asymmetric encryption algorithm for encrypting and decrypting messages. The bits used for encrypting is 512 bits for this implementation, but other applications can go up to 2048 bits. For this program, the keys are automatically generated, because the keys need to fit several conditions. It is easier for the user to generate their keys automatically." wrapText="true" />
+      <TextArea editable="false" layoutX="325.0" layoutY="196.0" prefHeight="311.0" prefWidth="221.0" text="Short for Data Encryption Standard, DES is a symmetric block cipher algorithm to encrypt data. The user can specify their own password, however the password must be exactly 8 characters due to the nature of how DES keys work (56 bit + 8 parity bit). 56 bits is definitely not secure, so it is advised for other people to use more advanced encryption methods." wrapText="true" />
+   </children>
+</Pane>
